@@ -1,12 +1,14 @@
-import Navbar from './components/Navbar'
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 // import logo from './logo.svg';
-// import './App.css';
+import "./App.css";
 
 function App() {
-  return (
-    <div>
-      <Navbar />
-      {/* <header className="App-header">
+    return (
+        <div>
+            <Navbar />
+            <Home />
+            {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -20,8 +22,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-    </div>
-  );
+        </div>
+    );
 }
 
 export default App;
